@@ -1,13 +1,29 @@
-<svg height="158" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="158" fill="#555" width="720"></rect>
+<svg height="414" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="414" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">└─┬ json-schema-faker@0.4.1 </tspan>
-<tspan x="10" y="42">  ├── chance@1.0.6 </tspan>
-<tspan x="10" y="58">  ├─┬ deref@0.6.4 </tspan>
-<tspan x="10" y="74">  │ └── deep-extend@0.4.1 </tspan>
-<tspan x="10" y="90">  ├── faker@3.0.1 </tspan>
-<tspan x="10" y="106">  └─┬ randexp@0.4.5 </tspan>
-<tspan x="10" y="122">    ├── discontinuous-range@1.0.0 </tspan>
-<tspan x="10" y="138">    └── ret@0.1.14</tspan>
+<tspan x="10" y="26">6 megabytes installed</tspan>
+<tspan x="10" y="42"></tspan>
+<tspan x="10" y="58">node_modules</tspan>
+<tspan x="10" y="74">└─┬ json-schema-faker@0.5.0-rc1 </tspan>
+<tspan x="10" y="90">  ├─┬ json-schema-ref-parser@3.1.2 </tspan>
+<tspan x="10" y="106">  │ ├── call-me-maybe@1.0.1 </tspan>
+<tspan x="10" y="122">  │ ├─┬ debug@2.6.3 </tspan>
+<tspan x="10" y="138">  │ │ └── ms@0.7.2 </tspan>
+<tspan x="10" y="154">  │ ├── es6-promise@3.3.1 </tspan>
+<tspan x="10" y="170">  │ ├─┬ js-yaml@3.8.3 </tspan>
+<tspan x="10" y="186">  │ │ ├─┬ argparse@1.0.9 </tspan>
+<tspan x="10" y="202">  │ │ │ └── sprintf-js@1.0.3 </tspan>
+<tspan x="10" y="218">  │ │ └── esprima@3.1.3 </tspan>
+<tspan x="10" y="234">  │ ├── ono@2.2.4 </tspan>
+<tspan x="10" y="250">  │ └─┬ z-schema@3.18.2 </tspan>
+<tspan x="10" y="266">  │   ├─┬ commander@2.9.0 </tspan>
+<tspan x="10" y="282">  │   │ └── graceful-readlink@1.0.1 </tspan>
+<tspan x="10" y="298">  │   ├── lodash.get@4.4.2 </tspan>
+<tspan x="10" y="314">  │   ├── lodash.isequal@4.5.0 </tspan>
+<tspan x="10" y="330">  │   └── validator@6.3.0 </tspan>
+<tspan x="10" y="346">  ├─┬ randexp@0.4.3 </tspan>
+<tspan x="10" y="362">  │ ├── discontinuous-range@1.0.0 </tspan>
+<tspan x="10" y="378">  │ └── ret@0.1.14 </tspan>
+<tspan x="10" y="394">  └── tslib@1.4.0</tspan>
 </text>
 </svg>

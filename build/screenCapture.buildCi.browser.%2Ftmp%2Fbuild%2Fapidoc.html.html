@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="http://json-schema-faker.js.org"
-
-    >json-schema-faker (v0.4.1)</a>
+    <a href="http://json-schema-faker.js.org">json-schema-faker (v0.4.1)</a>
 </h1>
 <h4>JSON-Schema + fake data generators</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.json-schema-faker">module json-schema-faker</a><ol>
 
@@ -213,14 +206,14 @@
 You may extend [Faker.js](http://marak.com/faker.js/):
 
 ```javascript
-var jsf = require(&#x27;json-schema-faker&#x27;);
+var jsf = require('json-schema-faker');
 
-jsf.<span class="apidocCodeKeywordSpan">extend</span>(&#x27;faker&#x27;, function(faker){
-faker.locale = &#x22;de&#x22;; // or any other language
+jsf.<span class="apidocCodeKeywordSpan">extend</span>('faker', function(faker){
+faker.locale = "de"; // or any other language
 faker.custom = {
   statement: function(length) {
-    return faker.name.firstName() + &#x22; has &#x22; + faker.finance.amount() + &#x22; on &#x22; + faker.finance.account(length
-) + &#x22;.&#x22;;
+    return faker.name.firstName() + " has " + faker.finance.amount() + " on " + faker.finance.account(length
+) + ".";
   }
 };
 return faker;
@@ -237,11 +230,11 @@ return faker;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function formatAPI(nameOrFormatMap, callback) {
-    if (typeof nameOrFormatMap === &#x27;undefined&#x27;) {
+    if (typeof nameOrFormatMap === 'undefined') {
         return registry.list();
     }
-    else if (typeof nameOrFormatMap === &#x27;string&#x27;) {
-        if (typeof callback === &#x27;function&#x27;) {
+    else if (typeof nameOrFormatMap === 'string') {
+        if (typeof callback === 'function') {
             registry.register(nameOrFormatMap, callback);
         }
         else {
@@ -253,15 +246,15 @@ return faker;
     }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-&#x3e; in order to use both generators you MUST install them with `npm install faker chance --save`.
+&gt; in order to use both generators you MUST install them with `npm install faker chance --save`.
 
 ## Custom formats
 
 Additionally, you can add custom generators for those:
 
 ```javascript
-jsf.<span class="apidocCodeKeywordSpan">format</span>(&#x27;semver&#x27;, function(gen, schema) {
-  return gen.randexp(&#x27;^\\d\\.\\d\\.\\d{1,2}$&#x27;);
+jsf.<span class="apidocCodeKeywordSpan">format</span>('semver', function(gen, schema) {
+  return gen.randexp('^\\d\\.\\d\\.\\d{1,2}$');
 });
 ```
 
@@ -281,7 +274,7 @@ Now that format can be generated:
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function optionAPI(nameOrOptionMap) {
-    if (typeof nameOrOptionMap === &#x27;string&#x27;) {
+    if (typeof nameOrOptionMap === 'string') {
         return registry.get(nameOrOptionMap);
     }
     else {
@@ -351,14 +344,14 @@ You may extend [Faker.js](http://marak.com/faker.js/):
 You may extend [Faker.js](http://marak.com/faker.js/):
 
 ```javascript
-var jsf = require(&#x27;json-schema-faker&#x27;);
+var jsf = require('json-schema-faker');
 
-jsf.<span class="apidocCodeKeywordSpan">extend</span>(&#x27;faker&#x27;, function(faker){
-faker.locale = &#x22;de&#x22;; // or any other language
+jsf.<span class="apidocCodeKeywordSpan">extend</span>('faker', function(faker){
+faker.locale = "de"; // or any other language
 faker.custom = {
   statement: function(length) {
-    return faker.name.firstName() + &#x22; has &#x22; + faker.finance.amount() + &#x22; on &#x22; + faker.finance.account(length
-) + &#x22;.&#x22;;
+    return faker.name.firstName() + " has " + faker.finance.amount() + " on " + faker.finance.account(length
+) + ".";
   }
 };
 return faker;
@@ -375,11 +368,11 @@ return faker;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function formatAPI(nameOrFormatMap, callback) {
-    if (typeof nameOrFormatMap === &#x27;undefined&#x27;) {
+    if (typeof nameOrFormatMap === 'undefined') {
         return registry.list();
     }
-    else if (typeof nameOrFormatMap === &#x27;string&#x27;) {
-        if (typeof callback === &#x27;function&#x27;) {
+    else if (typeof nameOrFormatMap === 'string') {
+        if (typeof callback === 'function') {
             registry.register(nameOrFormatMap, callback);
         }
         else {
@@ -391,15 +384,15 @@ return faker;
     }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-&#x3e; in order to use both generators you MUST install them with `npm install faker chance --save`.
+&gt; in order to use both generators you MUST install them with `npm install faker chance --save`.
 
 ## Custom formats
 
 Additionally, you can add custom generators for those:
 
 ```javascript
-jsf.<span class="apidocCodeKeywordSpan">format</span>(&#x27;semver&#x27;, function(gen, schema) {
-  return gen.randexp(&#x27;^\\d\\.\\d\\.\\d{1,2}$&#x27;);
+jsf.<span class="apidocCodeKeywordSpan">format</span>('semver', function(gen, schema) {
+  return gen.randexp('^\\d\\.\\d\\.\\d{1,2}$');
 });
 ```
 
@@ -419,7 +412,7 @@ Now that format can be generated:
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function optionAPI(nameOrOptionMap) {
-    if (typeof nameOrOptionMap === &#x27;string&#x27;) {
+    if (typeof nameOrOptionMap === 'string') {
         return registry.get(nameOrOptionMap);
     }
     else {
@@ -459,3 +452,4 @@ You may extend [Faker.js](http://marak.com/faker.js/):
     ]
 </div>
 </div>
+</body></html>
