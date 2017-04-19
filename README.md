@@ -1,9 +1,14 @@
-# api documentation for  [json-schema-faker (v0.4.1)](http://json-schema-faker.js.org)  [![npm package](https://img.shields.io/npm/v/npmdoc-json-schema-faker.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-json-schema-faker) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-json-schema-faker.svg)](https://travis-ci.org/npmdoc/node-npmdoc-json-schema-faker)
+# npmdoc-json-schema-faker
+
+#### api documentation for  [json-schema-faker (v0.4.1)](http://json-schema-faker.js.org)  [![npm package](https://img.shields.io/npm/v/npmdoc-json-schema-faker.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-json-schema-faker) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-json-schema-faker.svg)](https://travis-ci.org/npmdoc/node-npmdoc-json-schema-faker)
+
 #### JSON-Schema + fake data generators
 
-[![NPM](https://nodei.co/npm/json-schema-faker.png?downloads=true)](https://www.npmjs.com/package/json-schema-faker)
+[![NPM](https://nodei.co/npm/json-schema-faker.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/json-schema-faker)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-json-schema-faker/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-json-schema-faker_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-json-schema-faker/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-json-schema-faker/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-json-schema-faker/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-json-schema-faker/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-json-schema-faker/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-json-schema-faker/build/screenCapture.npmPackageListing.svg)
 
@@ -21,12 +26,10 @@
     },
     "contributors": [
         {
-            "name": "Alvaro Cabrera",
-            "email": "pateketrueke@gmail.com"
+            "name": "Alvaro Cabrera"
         },
         {
             "name": "Tomasz Ducin",
-            "email": "tomasz@ducin.it",
             "url": "http://ducin.it"
         }
     ],
@@ -74,17 +77,14 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "pateketrueke",
-            "email": "pateketrueke@gmail.com"
+            "name": "pateketrueke"
         },
         {
-            "name": "ducin",
-            "email": "tomasz.ducin@gmail.com"
+            "name": "ducin"
         }
     ],
     "name": "json-schema-faker",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/json-schema-faker/json-schema-faker.git"
@@ -105,126 +105,6 @@
     },
     "version": "0.4.1"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module json-schema-faker](#apidoc.module.json-schema-faker)
-1.  [function <span class="apidocSignatureSpan">json-schema-faker.</span>extend (name, cb)](#apidoc.element.json-schema-faker.extend)
-1.  [function <span class="apidocSignatureSpan">json-schema-faker.</span>format (nameOrFormatMap, callback)](#apidoc.element.json-schema-faker.format)
-1.  [function <span class="apidocSignatureSpan">json-schema-faker.</span>option (nameOrOptionMap)](#apidoc.element.json-schema-faker.option)
-1.  string <span class="apidocSignatureSpan">json-schema-faker.</span>version
-
-
-
-# <a name="apidoc.module.json-schema-faker"></a>[module json-schema-faker](#apidoc.module.json-schema-faker)
-
-#### <a name="apidoc.element.json-schema-faker.extend"></a>[function <span class="apidocSignatureSpan">json-schema-faker.</span>extend (name, cb)](#apidoc.element.json-schema-faker.extend)
-- description and source-code
-```javascript
-extend = function (name, cb) {
-    container.extend(name, cb);
-    return jsf;
-}
-```
-- example usage
-```shell
-...
-## Extending dependencies
-
-You may extend [Faker.js](http://marak.com/faker.js/):
-
-'''javascript
-var jsf = require('json-schema-faker');
-
-jsf.extend('faker', function(faker){
-faker.locale = "de"; // or any other language
-faker.custom = {
-  statement: function(length) {
-    return faker.name.firstName() + " has " + faker.finance.amount() + " on " + faker.finance.account(length) + ".";
-  }
-};
-return faker;
-...
-```
-
-#### <a name="apidoc.element.json-schema-faker.format"></a>[function <span class="apidocSignatureSpan">json-schema-faker.</span>format (nameOrFormatMap, callback)](#apidoc.element.json-schema-faker.format)
-- description and source-code
-```javascript
-function formatAPI(nameOrFormatMap, callback) {
-    if (typeof nameOrFormatMap === 'undefined') {
-        return registry.list();
-    }
-    else if (typeof nameOrFormatMap === 'string') {
-        if (typeof callback === 'function') {
-            registry.register(nameOrFormatMap, callback);
-        }
-        else {
-            return registry.get(nameOrFormatMap);
-        }
-    }
-    else {
-        registry.registerMany(nameOrFormatMap);
-    }
-}
-```
-- example usage
-```shell
-...
-> in order to use both generators you MUST install them with 'npm install faker chance --save'.
-
-## Custom formats
-
-Additionally, you can add custom generators for those:
-
-'''javascript
-jsf.format('semver', function(gen, schema) {
-  return gen.randexp('^\\d\\.\\d\\.\\d{1,2}$');
-});
-'''
-
-Now that format can be generated:
-
-'''json
-...
-```
-
-#### <a name="apidoc.element.json-schema-faker.option"></a>[function <span class="apidocSignatureSpan">json-schema-faker.</span>option (nameOrOptionMap)](#apidoc.element.json-schema-faker.option)
-- description and source-code
-```javascript
-function optionAPI(nameOrOptionMap) {
-    if (typeof nameOrOptionMap === 'string') {
-        return registry.get(nameOrOptionMap);
-    }
-    else {
-        return registry.registerMany(nameOrOptionMap);
-    }
-}
-```
-- example usage
-```shell
-...
-- 'defaultInvalidTypeProduct': - default value generated for a schema with invalid type (works only if 'failOnInvalidTypes' is set
- to 'false')
-- 'maxItems': number - Configure a maximum amount of items to generate in an array. This will override the maximum items found inside
- a JSON Schema.
-- 'maxLength': number - Configure a maximum length to allow generating strings for. This will override the maximum length found
-inside a JSON Schema.
-
-Set options just as below:
-
-'''javascript
-jsf.option({
-  failOnInvalidTypes: false
-});
-'''
-
-## Extending dependencies
-
-You may extend [Faker.js](http://marak.com/faker.js/):
-...
 ```
 
 
