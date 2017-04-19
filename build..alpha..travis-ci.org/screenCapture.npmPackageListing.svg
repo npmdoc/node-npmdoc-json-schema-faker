@@ -1,114 +1,114 @@
 <svg height="1774" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="1774" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-19 02:38:53 +0000   388352 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-19 02:38:53 +0000     3601 bytes  CHANGELOG.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-19 02:38:53 +0000     1102 bytes  LICENSE</tspan>
-<tspan x="10" y="74">  3.  2017-04-19 02:38:53 +0000    20958 bytes  README.md</tspan>
-<tspan x="10" y="90">  4.  2017-04-19 02:38:53 +0000      613 bytes  bower.json</tspan>
-<tspan x="10" y="106">  5.  2017-04-19 02:38:53 +0000     2166 bytes  docs/README.md</tspan>
-<tspan x="10" y="122">  6.  2017-04-19 02:38:53 +0000     2879 bytes  docs/structure.gv</tspan>
-<tspan x="10" y="138">  7.  2017-04-19 02:38:53 +0000   175255 bytes  docs/structure.png</tspan>
-<tspan x="10" y="154">  8.  2017-04-19 02:38:53 +0000      288 bytes  index.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-19 02:38:53 +0000      323 bytes  lib/api/extend.js</tspan>
-<tspan x="10" y="186"> 10.  2017-04-19 02:38:53 +0000      756 bytes  lib/api/format.js</tspan>
-<tspan x="10" y="202"> 11.  2017-04-19 02:38:53 +0000      438 bytes  lib/api/option.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-19 02:38:53 +0000     2509 bytes  lib/class/Container.js</tspan>
-<tspan x="10" y="234"> 13.  2017-04-19 02:38:53 +0000     1064 bytes  lib/class/OptionRegistry.js</tspan>
-<tspan x="10" y="250"> 14.  2017-04-19 02:38:53 +0000     1062 bytes  lib/class/Registry.js</tspan>
-<tspan x="10" y="266"> 15.  2017-04-19 02:38:53 +0000     1362 bytes  lib/core/clean.js</tspan>
-<tspan x="10" y="282"> 16.  2017-04-19 02:38:53 +0000      705 bytes  lib/core/error.js</tspan>
-<tspan x="10" y="298"> 17.  2017-04-19 02:38:53 +0000     2249 bytes  lib/core/infer.js</tspan>
-<tspan x="10" y="314"> 18.  2017-04-19 02:38:53 +0000     1866 bytes  lib/core/random.js</tspan>
-<tspan x="10" y="330"> 19.  2017-04-19 02:38:53 +0000     2357 bytes  lib/core/run.js</tspan>
-<tspan x="10" y="346"> 20.  2017-04-19 02:38:53 +0000     2622 bytes  lib/core/traverse.js</tspan>
-<tspan x="10" y="362"> 21.  2017-04-19 02:38:53 +0000     2324 bytes  lib/core/utils.js</tspan>
-<tspan x="10" y="378"> 22.  2017-04-19 02:38:53 +0000      185 bytes  lib/generators/boolean.js</tspan>
-<tspan x="10" y="394"> 23.  2017-04-19 02:38:53 +0000      708 bytes  lib/generators/coreFormat.js</tspan>
-<tspan x="10" y="410"> 24.  2017-04-19 02:38:53 +0000      278 bytes  lib/generators/dateTime.js</tspan>
-<tspan x="10" y="426"> 25.  2017-04-19 02:38:53 +0000      283 bytes  lib/generators/ipv4.js</tspan>
-<tspan x="10" y="442"> 26.  2017-04-19 02:38:53 +0000      147 bytes  lib/generators/null.js</tspan>
-<tspan x="10" y="458"> 27.  2017-04-19 02:38:53 +0000      869 bytes  lib/generators/thunk.js</tspan>
-<tspan x="10" y="474"> 28.  2017-04-19 02:38:53 +0000      830 bytes  lib/generators/words.js</tspan>
-<tspan x="10" y="490"> 29.  2017-04-19 02:38:53 +0000      442 bytes  lib/index.js</tspan>
-<tspan x="10" y="506"> 30.  2017-04-19 02:38:53 +0000     2982 bytes  lib/types/array.js</tspan>
-<tspan x="10" y="522"> 31.  2017-04-19 02:38:53 +0000      137 bytes  lib/types/boolean.js</tspan>
-<tspan x="10" y="538"> 32.  2017-04-19 02:38:53 +0000     1617 bytes  lib/types/external.js</tspan>
-<tspan x="10" y="554"> 33.  2017-04-19 02:38:53 +0000      512 bytes  lib/types/index.js</tspan>
-<tspan x="10" y="570"> 34.  2017-04-19 02:38:53 +0000      597 bytes  lib/types/integer.js</tspan>
-<tspan x="10" y="586"> 35.  2017-04-19 02:38:53 +0000      122 bytes  lib/types/null.js</tspan>
-<tspan x="10" y="602"> 36.  2017-04-19 02:38:53 +0000      960 bytes  lib/types/number.js</tspan>
-<tspan x="10" y="618"> 37.  2017-04-19 02:38:53 +0000     4063 bytes  lib/types/object.js</tspan>
-<tspan x="10" y="634"> 38.  2017-04-19 02:38:53 +0000     1867 bytes  lib/types/string.js</tspan>
-<tspan x="10" y="650"> 39.  2017-04-19 02:38:53 +0000      427 bytes  locale/de.js</tspan>
-<tspan x="10" y="666"> 40.  2017-04-19 02:38:53 +0000      430 bytes  locale/de_AT.js</tspan>
-<tspan x="10" y="682"> 41.  2017-04-19 02:38:53 +0000      430 bytes  locale/de_CH.js</tspan>
-<tspan x="10" y="698"> 42.  2017-04-19 02:38:53 +0000      427 bytes  locale/en.js</tspan>
-<tspan x="10" y="714"> 43.  2017-04-19 02:38:53 +0000      430 bytes  locale/en_AU.js</tspan>
-<tspan x="10" y="730"> 44.  2017-04-19 02:38:53 +0000      432 bytes  locale/en_BORK.js</tspan>
-<tspan x="10" y="746"> 45.  2017-04-19 02:38:53 +0000      430 bytes  locale/en_CA.js</tspan>
-<tspan x="10" y="762"> 46.  2017-04-19 02:38:53 +0000      430 bytes  locale/en_GB.js</tspan>
-<tspan x="10" y="778"> 47.  2017-04-19 02:38:53 +0000      430 bytes  locale/en_IE.js</tspan>
-<tspan x="10" y="794"> 48.  2017-04-19 02:38:53 +0000      431 bytes  locale/en_IND.js</tspan>
-<tspan x="10" y="810"> 49.  2017-04-19 02:38:53 +0000      430 bytes  locale/en_US.js</tspan>
-<tspan x="10" y="826"> 50.  2017-04-19 02:38:53 +0000      436 bytes  locale/en_au_ocker.js</tspan>
-<tspan x="10" y="842"> 51.  2017-04-19 02:38:53 +0000      427 bytes  locale/es.js</tspan>
-<tspan x="10" y="858"> 52.  2017-04-19 02:38:53 +0000      430 bytes  locale/es_MX.js</tspan>
-<tspan x="10" y="874"> 53.  2017-04-19 02:38:53 +0000      427 bytes  locale/fa.js</tspan>
-<tspan x="10" y="890"> 54.  2017-04-19 02:38:53 +0000      427 bytes  locale/fr.js</tspan>
-<tspan x="10" y="906"> 55.  2017-04-19 02:38:53 +0000      430 bytes  locale/fr_CA.js</tspan>
-<tspan x="10" y="922"> 56.  2017-04-19 02:38:53 +0000      427 bytes  locale/ge.js</tspan>
-<tspan x="10" y="938"> 57.  2017-04-19 02:38:53 +0000      171 bytes  locale/id_ID.js</tspan>
-<tspan x="10" y="954"> 58.  2017-04-19 02:38:53 +0000      427 bytes  locale/it.js</tspan>
-<tspan x="10" y="970"> 59.  2017-04-19 02:38:53 +0000      427 bytes  locale/ja.js</tspan>
-<tspan x="10" y="986"> 60.  2017-04-19 02:38:53 +0000      427 bytes  locale/ko.js</tspan>
-<tspan x="10" y="1002"> 61.  2017-04-19 02:38:53 +0000      430 bytes  locale/nb_NO.js</tspan>
-<tspan x="10" y="1018"> 62.  2017-04-19 02:38:53 +0000      428 bytes  locale/nep.js</tspan>
-<tspan x="10" y="1034"> 63.  2017-04-19 02:38:53 +0000      427 bytes  locale/nl.js</tspan>
-<tspan x="10" y="1050"> 64.  2017-04-19 02:38:53 +0000      427 bytes  locale/pl.js</tspan>
-<tspan x="10" y="1066"> 65.  2017-04-19 02:38:53 +0000      430 bytes  locale/pt_BR.js</tspan>
-<tspan x="10" y="1082"> 66.  2017-04-19 02:38:53 +0000      427 bytes  locale/ru.js</tspan>
-<tspan x="10" y="1098"> 67.  2017-04-19 02:38:53 +0000      427 bytes  locale/sk.js</tspan>
-<tspan x="10" y="1114"> 68.  2017-04-19 02:38:53 +0000      427 bytes  locale/sv.js</tspan>
-<tspan x="10" y="1130"> 69.  2017-04-19 02:38:53 +0000      427 bytes  locale/tr.js</tspan>
-<tspan x="10" y="1146"> 70.  2017-04-19 02:38:53 +0000      427 bytes  locale/uk.js</tspan>
-<tspan x="10" y="1162"> 71.  2017-04-19 02:38:53 +0000      427 bytes  locale/vi.js</tspan>
-<tspan x="10" y="1178"> 72.  2017-04-19 02:38:53 +0000      430 bytes  locale/zh_CN.js</tspan>
-<tspan x="10" y="1194"> 73.  2017-04-19 02:38:53 +0000      430 bytes  locale/zh_TW.js</tspan>
-<tspan x="10" y="1210"> 74.  2017-04-19 02:38:53 +0000     3975 bytes  package.json</tspan>
-<tspan x="10" y="1226"> 75.  2017-04-19 02:38:53 +0000      602 bytes  test.js</tspan>
-<tspan x="10" y="1242"> 76.  2017-04-19 02:38:53 +0000      328 bytes  ts/api/extend.ts</tspan>
-<tspan x="10" y="1258"> 77.  2017-04-19 02:38:53 +0000      747 bytes  ts/api/format.ts</tspan>
-<tspan x="10" y="1274"> 78.  2017-04-19 02:38:53 +0000      425 bytes  ts/api/option.ts</tspan>
-<tspan x="10" y="1290"> 79.  2017-04-19 02:38:53 +0000     2360 bytes  ts/class/Container.ts</tspan>
-<tspan x="10" y="1306"> 80.  2017-04-19 02:38:53 +0000      632 bytes  ts/class/OptionRegistry.ts</tspan>
-<tspan x="10" y="1322"> 81.  2017-04-19 02:38:53 +0000      973 bytes  ts/class/Registry.ts</tspan>
-<tspan x="10" y="1338"> 82.  2017-04-19 02:38:53 +0000     1161 bytes  ts/core/clean.ts</tspan>
-<tspan x="10" y="1354"> 83.  2017-04-19 02:38:53 +0000      469 bytes  ts/core/error.ts</tspan>
-<tspan x="10" y="1370"> 84.  2017-04-19 02:38:53 +0000     2429 bytes  ts/core/infer.ts</tspan>
-<tspan x="10" y="1386"> 85.  2017-04-19 02:38:53 +0000     1891 bytes  ts/core/random.ts</tspan>
-<tspan x="10" y="1402"> 86.  2017-04-19 02:38:53 +0000     2095 bytes  ts/core/run.ts</tspan>
-<tspan x="10" y="1418"> 87.  2017-04-19 02:38:53 +0000     2484 bytes  ts/core/traverse.ts</tspan>
-<tspan x="10" y="1434"> 88.  2017-04-19 02:38:53 +0000     2141 bytes  ts/core/utils.ts</tspan>
-<tspan x="10" y="1450"> 89.  2017-04-19 02:38:53 +0000      171 bytes  ts/generators/boolean.ts</tspan>
-<tspan x="10" y="1466"> 90.  2017-04-19 02:38:53 +0000      719 bytes  ts/generators/coreFormat.ts</tspan>
-<tspan x="10" y="1482"> 91.  2017-04-19 02:38:53 +0000      267 bytes  ts/generators/dateTime.ts</tspan>
-<tspan x="10" y="1498"> 92.  2017-04-19 02:38:53 +0000      273 bytes  ts/generators/ipv4.ts</tspan>
-<tspan x="10" y="1514"> 93.  2017-04-19 02:38:53 +0000      129 bytes  ts/generators/null.ts</tspan>
-<tspan x="10" y="1530"> 94.  2017-04-19 02:38:53 +0000      837 bytes  ts/generators/thunk.ts</tspan>
-<tspan x="10" y="1546"> 95.  2017-04-19 02:38:53 +0000      820 bytes  ts/generators/words.ts</tspan>
-<tspan x="10" y="1562"> 96.  2017-04-19 02:38:53 +0000     2761 bytes  ts/index.d.ts</tspan>
-<tspan x="10" y="1578"> 97.  2017-04-19 02:38:53 +0000      474 bytes  ts/index.ts</tspan>
-<tspan x="10" y="1594"> 98.  2017-04-19 02:38:53 +0000     2968 bytes  ts/types/array.ts</tspan>
-<tspan x="10" y="1610"> 99.  2017-04-19 02:38:53 +0000      136 bytes  ts/types/boolean.ts</tspan>
-<tspan x="10" y="1626">100.  2017-04-19 02:38:53 +0000     1630 bytes  ts/types/external.ts</tspan>
-<tspan x="10" y="1642">101.  2017-04-19 02:38:53 +0000      537 bytes  ts/types/index.ts</tspan>
-<tspan x="10" y="1658">102.  2017-04-19 02:38:53 +0000      620 bytes  ts/types/integer.ts</tspan>
-<tspan x="10" y="1674">103.  2017-04-19 02:38:53 +0000      122 bytes  ts/types/null.ts</tspan>
-<tspan x="10" y="1690">104.  2017-04-19 02:38:53 +0000      957 bytes  ts/types/number.ts</tspan>
-<tspan x="10" y="1706">105.  2017-04-19 02:38:53 +0000     4163 bytes  ts/types/object.ts</tspan>
-<tspan x="10" y="1722">106.  2017-04-19 02:38:53 +0000     1787 bytes  ts/types/string.ts</tspan>
-<tspan x="10" y="1738">107.  2017-04-19 02:38:53 +0000      125 bytes  tslint.json</tspan>
-<tspan x="10" y="1754">108.  2017-04-19 02:38:53 +0000    88299 bytes  yarn.lock</tspan>
+<tspan x="10" y="26">  0.  2017-04-19 02:39:58 +0000   388352 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-19 02:39:58 +0000     3601 bytes  CHANGELOG.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-19 02:39:58 +0000     1102 bytes  LICENSE</tspan>
+<tspan x="10" y="74">  3.  2017-04-19 02:39:58 +0000    20958 bytes  README.md</tspan>
+<tspan x="10" y="90">  4.  2017-04-19 02:39:58 +0000      613 bytes  bower.json</tspan>
+<tspan x="10" y="106">  5.  2017-04-19 02:39:58 +0000     2166 bytes  docs/README.md</tspan>
+<tspan x="10" y="122">  6.  2017-04-19 02:39:58 +0000     2879 bytes  docs/structure.gv</tspan>
+<tspan x="10" y="138">  7.  2017-04-19 02:39:58 +0000   175255 bytes  docs/structure.png</tspan>
+<tspan x="10" y="154">  8.  2017-04-19 02:39:58 +0000      288 bytes  index.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-19 02:39:58 +0000      323 bytes  lib/api/extend.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-19 02:39:58 +0000      756 bytes  lib/api/format.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-19 02:39:58 +0000      438 bytes  lib/api/option.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-19 02:39:58 +0000     2509 bytes  lib/class/Container.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-19 02:39:58 +0000     1064 bytes  lib/class/OptionRegistry.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-19 02:39:58 +0000     1062 bytes  lib/class/Registry.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-19 02:39:58 +0000     1362 bytes  lib/core/clean.js</tspan>
+<tspan x="10" y="282"> 16.  2017-04-19 02:39:58 +0000      705 bytes  lib/core/error.js</tspan>
+<tspan x="10" y="298"> 17.  2017-04-19 02:39:58 +0000     2249 bytes  lib/core/infer.js</tspan>
+<tspan x="10" y="314"> 18.  2017-04-19 02:39:58 +0000     1866 bytes  lib/core/random.js</tspan>
+<tspan x="10" y="330"> 19.  2017-04-19 02:39:58 +0000     2357 bytes  lib/core/run.js</tspan>
+<tspan x="10" y="346"> 20.  2017-04-19 02:39:58 +0000     2622 bytes  lib/core/traverse.js</tspan>
+<tspan x="10" y="362"> 21.  2017-04-19 02:39:58 +0000     2324 bytes  lib/core/utils.js</tspan>
+<tspan x="10" y="378"> 22.  2017-04-19 02:39:58 +0000      185 bytes  lib/generators/boolean.js</tspan>
+<tspan x="10" y="394"> 23.  2017-04-19 02:39:58 +0000      708 bytes  lib/generators/coreFormat.js</tspan>
+<tspan x="10" y="410"> 24.  2017-04-19 02:39:58 +0000      278 bytes  lib/generators/dateTime.js</tspan>
+<tspan x="10" y="426"> 25.  2017-04-19 02:39:58 +0000      283 bytes  lib/generators/ipv4.js</tspan>
+<tspan x="10" y="442"> 26.  2017-04-19 02:39:58 +0000      147 bytes  lib/generators/null.js</tspan>
+<tspan x="10" y="458"> 27.  2017-04-19 02:39:58 +0000      869 bytes  lib/generators/thunk.js</tspan>
+<tspan x="10" y="474"> 28.  2017-04-19 02:39:58 +0000      830 bytes  lib/generators/words.js</tspan>
+<tspan x="10" y="490"> 29.  2017-04-19 02:39:58 +0000      442 bytes  lib/index.js</tspan>
+<tspan x="10" y="506"> 30.  2017-04-19 02:39:58 +0000     2982 bytes  lib/types/array.js</tspan>
+<tspan x="10" y="522"> 31.  2017-04-19 02:39:58 +0000      137 bytes  lib/types/boolean.js</tspan>
+<tspan x="10" y="538"> 32.  2017-04-19 02:39:58 +0000     1617 bytes  lib/types/external.js</tspan>
+<tspan x="10" y="554"> 33.  2017-04-19 02:39:58 +0000      512 bytes  lib/types/index.js</tspan>
+<tspan x="10" y="570"> 34.  2017-04-19 02:39:58 +0000      597 bytes  lib/types/integer.js</tspan>
+<tspan x="10" y="586"> 35.  2017-04-19 02:39:58 +0000      122 bytes  lib/types/null.js</tspan>
+<tspan x="10" y="602"> 36.  2017-04-19 02:39:58 +0000      960 bytes  lib/types/number.js</tspan>
+<tspan x="10" y="618"> 37.  2017-04-19 02:39:58 +0000     4063 bytes  lib/types/object.js</tspan>
+<tspan x="10" y="634"> 38.  2017-04-19 02:39:58 +0000     1867 bytes  lib/types/string.js</tspan>
+<tspan x="10" y="650"> 39.  2017-04-19 02:39:58 +0000      427 bytes  locale/de.js</tspan>
+<tspan x="10" y="666"> 40.  2017-04-19 02:39:58 +0000      430 bytes  locale/de_AT.js</tspan>
+<tspan x="10" y="682"> 41.  2017-04-19 02:39:58 +0000      430 bytes  locale/de_CH.js</tspan>
+<tspan x="10" y="698"> 42.  2017-04-19 02:39:58 +0000      427 bytes  locale/en.js</tspan>
+<tspan x="10" y="714"> 43.  2017-04-19 02:39:58 +0000      430 bytes  locale/en_AU.js</tspan>
+<tspan x="10" y="730"> 44.  2017-04-19 02:39:58 +0000      432 bytes  locale/en_BORK.js</tspan>
+<tspan x="10" y="746"> 45.  2017-04-19 02:39:58 +0000      430 bytes  locale/en_CA.js</tspan>
+<tspan x="10" y="762"> 46.  2017-04-19 02:39:58 +0000      430 bytes  locale/en_GB.js</tspan>
+<tspan x="10" y="778"> 47.  2017-04-19 02:39:58 +0000      430 bytes  locale/en_IE.js</tspan>
+<tspan x="10" y="794"> 48.  2017-04-19 02:39:58 +0000      431 bytes  locale/en_IND.js</tspan>
+<tspan x="10" y="810"> 49.  2017-04-19 02:39:58 +0000      430 bytes  locale/en_US.js</tspan>
+<tspan x="10" y="826"> 50.  2017-04-19 02:39:58 +0000      436 bytes  locale/en_au_ocker.js</tspan>
+<tspan x="10" y="842"> 51.  2017-04-19 02:39:58 +0000      427 bytes  locale/es.js</tspan>
+<tspan x="10" y="858"> 52.  2017-04-19 02:39:58 +0000      430 bytes  locale/es_MX.js</tspan>
+<tspan x="10" y="874"> 53.  2017-04-19 02:39:58 +0000      427 bytes  locale/fa.js</tspan>
+<tspan x="10" y="890"> 54.  2017-04-19 02:39:58 +0000      427 bytes  locale/fr.js</tspan>
+<tspan x="10" y="906"> 55.  2017-04-19 02:39:58 +0000      430 bytes  locale/fr_CA.js</tspan>
+<tspan x="10" y="922"> 56.  2017-04-19 02:39:58 +0000      427 bytes  locale/ge.js</tspan>
+<tspan x="10" y="938"> 57.  2017-04-19 02:39:58 +0000      171 bytes  locale/id_ID.js</tspan>
+<tspan x="10" y="954"> 58.  2017-04-19 02:39:58 +0000      427 bytes  locale/it.js</tspan>
+<tspan x="10" y="970"> 59.  2017-04-19 02:39:58 +0000      427 bytes  locale/ja.js</tspan>
+<tspan x="10" y="986"> 60.  2017-04-19 02:39:58 +0000      427 bytes  locale/ko.js</tspan>
+<tspan x="10" y="1002"> 61.  2017-04-19 02:39:58 +0000      430 bytes  locale/nb_NO.js</tspan>
+<tspan x="10" y="1018"> 62.  2017-04-19 02:39:58 +0000      428 bytes  locale/nep.js</tspan>
+<tspan x="10" y="1034"> 63.  2017-04-19 02:39:58 +0000      427 bytes  locale/nl.js</tspan>
+<tspan x="10" y="1050"> 64.  2017-04-19 02:39:58 +0000      427 bytes  locale/pl.js</tspan>
+<tspan x="10" y="1066"> 65.  2017-04-19 02:39:58 +0000      430 bytes  locale/pt_BR.js</tspan>
+<tspan x="10" y="1082"> 66.  2017-04-19 02:39:58 +0000      427 bytes  locale/ru.js</tspan>
+<tspan x="10" y="1098"> 67.  2017-04-19 02:39:58 +0000      427 bytes  locale/sk.js</tspan>
+<tspan x="10" y="1114"> 68.  2017-04-19 02:39:58 +0000      427 bytes  locale/sv.js</tspan>
+<tspan x="10" y="1130"> 69.  2017-04-19 02:39:58 +0000      427 bytes  locale/tr.js</tspan>
+<tspan x="10" y="1146"> 70.  2017-04-19 02:39:58 +0000      427 bytes  locale/uk.js</tspan>
+<tspan x="10" y="1162"> 71.  2017-04-19 02:39:58 +0000      427 bytes  locale/vi.js</tspan>
+<tspan x="10" y="1178"> 72.  2017-04-19 02:39:58 +0000      430 bytes  locale/zh_CN.js</tspan>
+<tspan x="10" y="1194"> 73.  2017-04-19 02:39:58 +0000      430 bytes  locale/zh_TW.js</tspan>
+<tspan x="10" y="1210"> 74.  2017-04-19 02:39:58 +0000     3975 bytes  package.json</tspan>
+<tspan x="10" y="1226"> 75.  2017-04-19 02:39:58 +0000      602 bytes  test.js</tspan>
+<tspan x="10" y="1242"> 76.  2017-04-19 02:39:58 +0000      328 bytes  ts/api/extend.ts</tspan>
+<tspan x="10" y="1258"> 77.  2017-04-19 02:39:58 +0000      747 bytes  ts/api/format.ts</tspan>
+<tspan x="10" y="1274"> 78.  2017-04-19 02:39:58 +0000      425 bytes  ts/api/option.ts</tspan>
+<tspan x="10" y="1290"> 79.  2017-04-19 02:39:58 +0000     2360 bytes  ts/class/Container.ts</tspan>
+<tspan x="10" y="1306"> 80.  2017-04-19 02:39:58 +0000      632 bytes  ts/class/OptionRegistry.ts</tspan>
+<tspan x="10" y="1322"> 81.  2017-04-19 02:39:58 +0000      973 bytes  ts/class/Registry.ts</tspan>
+<tspan x="10" y="1338"> 82.  2017-04-19 02:39:58 +0000     1161 bytes  ts/core/clean.ts</tspan>
+<tspan x="10" y="1354"> 83.  2017-04-19 02:39:58 +0000      469 bytes  ts/core/error.ts</tspan>
+<tspan x="10" y="1370"> 84.  2017-04-19 02:39:58 +0000     2429 bytes  ts/core/infer.ts</tspan>
+<tspan x="10" y="1386"> 85.  2017-04-19 02:39:58 +0000     1891 bytes  ts/core/random.ts</tspan>
+<tspan x="10" y="1402"> 86.  2017-04-19 02:39:58 +0000     2095 bytes  ts/core/run.ts</tspan>
+<tspan x="10" y="1418"> 87.  2017-04-19 02:39:58 +0000     2484 bytes  ts/core/traverse.ts</tspan>
+<tspan x="10" y="1434"> 88.  2017-04-19 02:39:58 +0000     2141 bytes  ts/core/utils.ts</tspan>
+<tspan x="10" y="1450"> 89.  2017-04-19 02:39:58 +0000      171 bytes  ts/generators/boolean.ts</tspan>
+<tspan x="10" y="1466"> 90.  2017-04-19 02:39:58 +0000      719 bytes  ts/generators/coreFormat.ts</tspan>
+<tspan x="10" y="1482"> 91.  2017-04-19 02:39:58 +0000      267 bytes  ts/generators/dateTime.ts</tspan>
+<tspan x="10" y="1498"> 92.  2017-04-19 02:39:58 +0000      273 bytes  ts/generators/ipv4.ts</tspan>
+<tspan x="10" y="1514"> 93.  2017-04-19 02:39:58 +0000      129 bytes  ts/generators/null.ts</tspan>
+<tspan x="10" y="1530"> 94.  2017-04-19 02:39:58 +0000      837 bytes  ts/generators/thunk.ts</tspan>
+<tspan x="10" y="1546"> 95.  2017-04-19 02:39:58 +0000      820 bytes  ts/generators/words.ts</tspan>
+<tspan x="10" y="1562"> 96.  2017-04-19 02:39:58 +0000     2761 bytes  ts/index.d.ts</tspan>
+<tspan x="10" y="1578"> 97.  2017-04-19 02:39:58 +0000      474 bytes  ts/index.ts</tspan>
+<tspan x="10" y="1594"> 98.  2017-04-19 02:39:58 +0000     2968 bytes  ts/types/array.ts</tspan>
+<tspan x="10" y="1610"> 99.  2017-04-19 02:39:58 +0000      136 bytes  ts/types/boolean.ts</tspan>
+<tspan x="10" y="1626">100.  2017-04-19 02:39:58 +0000     1630 bytes  ts/types/external.ts</tspan>
+<tspan x="10" y="1642">101.  2017-04-19 02:39:58 +0000      537 bytes  ts/types/index.ts</tspan>
+<tspan x="10" y="1658">102.  2017-04-19 02:39:58 +0000      620 bytes  ts/types/integer.ts</tspan>
+<tspan x="10" y="1674">103.  2017-04-19 02:39:58 +0000      122 bytes  ts/types/null.ts</tspan>
+<tspan x="10" y="1690">104.  2017-04-19 02:39:58 +0000      957 bytes  ts/types/number.ts</tspan>
+<tspan x="10" y="1706">105.  2017-04-19 02:39:58 +0000     4163 bytes  ts/types/object.ts</tspan>
+<tspan x="10" y="1722">106.  2017-04-19 02:39:58 +0000     1787 bytes  ts/types/string.ts</tspan>
+<tspan x="10" y="1738">107.  2017-04-19 02:39:58 +0000      125 bytes  tslint.json</tspan>
+<tspan x="10" y="1754">108.  2017-04-19 02:39:58 +0000    88299 bytes  yarn.lock</tspan>
 </text>
 </svg>
