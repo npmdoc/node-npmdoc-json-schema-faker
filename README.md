@@ -103,7 +103,8 @@
         "tsify": "browserify ts/index.ts -p [ tsify ] > dist/temp-bundle.js",
         "typedoc": "typedoc --out docs/html ts/ --module commonjs"
     },
-    "version": "0.4.1"
+    "version": "0.4.1",
+    "bin": {}
 }
 ```
 
