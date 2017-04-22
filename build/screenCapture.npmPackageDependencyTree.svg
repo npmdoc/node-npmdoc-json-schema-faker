@@ -7,8 +7,8 @@
 <tspan x="10" y="74">└─┬ json-schema-faker@0.5.0-rc1 </tspan>
 <tspan x="10" y="90">  ├─┬ json-schema-ref-parser@3.1.2 </tspan>
 <tspan x="10" y="106">  │ ├── call-me-maybe@1.0.1 </tspan>
-<tspan x="10" y="122">  │ ├─┬ debug@2.6.3 </tspan>
-<tspan x="10" y="138">  │ │ └── ms@0.7.2 </tspan>
+<tspan x="10" y="122">  │ ├─┬ debug@2.6.4 </tspan>
+<tspan x="10" y="138">  │ │ └── ms@0.7.3 </tspan>
 <tspan x="10" y="154">  │ ├── es6-promise@3.3.1 </tspan>
 <tspan x="10" y="170">  │ ├─┬ js-yaml@3.8.3 </tspan>
 <tspan x="10" y="186">  │ │ ├─┬ argparse@1.0.9 </tspan>
